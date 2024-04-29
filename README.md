@@ -1,12 +1,12 @@
 # Rance's Duplo blocks.
 
-**Warning:** Set your expectations low.
-
 This is my sandbox repo where i throw pieces of codes I might deem useful or implementations of algoritms I will mostly either forget or will be too lazy to reimplement, so I'll put it here for future reference.
+
+**Warning:** Set your expectations low.
 
 ## Things you might find
 
-### - fy_Shuffle (Fisher-Yates Shuffle)
+### - fy_shuffle (Fisher-Yates Shuffle Algoritm)
 Algoritm to that shuffle the order of arrays.
 
 ## FAQ
