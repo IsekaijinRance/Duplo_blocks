@@ -5,6 +5,16 @@ import (
 	"math/rand"
 )
 
+func createRange(n int) []int {
+	var a []int
+
+	for i := 0; i < n; i++ {
+		a = append(a, i)
+	}
+
+	return a
+}
+
 func fyShuffle(array []int) []int {
 
 	for iterations := (len(array) - 1); iterations > 0; iterations-- {
@@ -22,11 +32,7 @@ func fyShuffle(array []int) []int {
 
 func main() {
 
-	var a []int
-
-	for i := 0; i < 15; i++ {
-		a = append(a, i)
-	}
+	a := createRange(15)
 
 	fmt.Println(fyShuffle(a))
 }
